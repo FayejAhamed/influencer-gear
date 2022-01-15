@@ -73,3 +73,18 @@ background-color: #6654b8;
     border: 1px solid rgba(211, 211, 211, 0.719);
     border-radius: 50%;
 }
+
+/* logos section  */
+
+.logos{
+    margin-top: 150px;
+    height: 40px;
+    width: 986px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+.logo{
+    height: 25px;
+}
