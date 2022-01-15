@@ -1,0 +1,56 @@
+/* header css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body{
+    width: 1200px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.first-heading{
+    
+}
+.navigation{
+    display: flex;
+    list-style: none;
+}
+.navigation li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    
+}
+
+/*------------------
+ infuencer section 
+ ------------------ */
+ .influencer{
+     display: flex;
+     justify-content: space-between;
+ }
+ .left-influencer{
+     width: 582px;
+     height: 270px;
+ }
+.fluencer-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;  
+}
+ .btn{
+    border-style: none;
+    padding: 10px 15px;
+    background-color: #E02C6D;
+    border-radius: 25px;
+ }
+ .btn a{
+     text-decoration: none;
+     color: white; 
+ }
+.camera {
+    padding: 20px;
+    border: 1px solid rgba(211, 211, 211, 0.719);
+    border-radius: 50%;
+}
