@@ -67,17 +67,25 @@ header{
  }
  .btn:hover{
 background-color: #6654b8;
+transition: 1s ease-in;
  }
 .camera {
     padding: 20px;
-    border: 1px solid rgba(211, 211, 211, 0.719);
+    border: 2px solid rgba(211, 211, 211, 0.226);
     border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+    
+}
+.camera:hover img{
+    transform: scale(1.1)rotateX(45deg);
+    transition: 2s ease-in-out;
 }
 
 /* logos section  */
 
 .logos{
-    margin-top: 150px;
+    margin-top: 100px;
     height: 40px;
     width: 986px;
     display: flex;
@@ -87,4 +95,68 @@ background-color: #6654b8;
 }
 .logo{
     height: 25px;
+}
+
+.popular-section{
+    margin-top: 50px;
+    width: 1047px;
+    height: 1662px;
+    margin-left: 100px;
+}
+.popular-heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.collection-section{
+
+   display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    
+    grid-gap: 30px;  
+
+
+}
+.collection{
+    
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+
+    
+}
+.collection-img img{
+    padding: 17px 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+.collection-info{
+    padding: 0 15px;
+}
+
+
+.fa-star, .fa-star-half-alt{
+    color:  #FB8200;;
+}
+.tripod{
+    margin-top: 19px;
+    margin-bottom: 0;
+}
+.price{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: none;
+    margin-bottom:10px;
+}
+.rating{
+    color: #5E6366;
+}
+.info-detail{
+    color: #787885;
+    margin: 0;
 }
