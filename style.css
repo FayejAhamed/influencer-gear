@@ -303,6 +303,14 @@ footer{
 .popular-heading{
     flex-direction: column;
 }
+.see-more{
+    display: none;
+}
+.popular-section{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
  }
 
 /* tablet divices  */
